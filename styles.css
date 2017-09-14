@@ -66,6 +66,7 @@ li a:hover {
     background-color: #4a86ff;
 }
 img.logo {
+	max-width: 100%;
 	height: auto;
 	width: auto;
 	display: block;
