@@ -20,6 +20,10 @@ body {
     font-weight: 400;
     margin: 0;
 }
+div.text {
+    max-width: 75%;
+    align-self: center;
+}
 h1 {
 	color:  #00ff88;
 	font-family: 'anaheim';
@@ -66,10 +70,25 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 23px;
+    padding-top: 20px;
+    font-family: 'anaheim';
+    font-size: 20px;
 }
 nav a {
-    color: #ffffff;
+    color: #363636;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: 'anaheim';
+    font-size: 20px;
+}
+nav a:visited {
+    color: #363636;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'anaheim';
+    font-size: 20px;
+}
+nav a:hover {
+    color: #000000
+    font-size: 20px;
 }
