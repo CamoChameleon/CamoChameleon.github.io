@@ -28,42 +28,41 @@ p {
 	font-size: 25px;
 	text-align: center;
 }
-a:link {
-	color: #ffffff;
-	font-family: 'anaheim';
-	font-size: 25px;
-	text-align: center;
+nav {
+    height: 40px;
+    border-bottom: 1px solid #EEE; /* Grey divide 1px Horizontale */
+    font-family: 'Anaheim', Helvetica, sans-serif;
 }
-a:visited {
-	color: #ffffff;
-	font-family: 'anaheim';
-	font-size: 25px;
-	text-align: center;
-}
-ul {
-    list-style-type: none;
-    margin: 0px -50px;
-    overflow: hidden;
-    background-color: #0074ff;
-	position: fixed;
-    top: 0;
-    width: 100%;
+.navbar_primary li,
+.user_nav li,
+.nav-link {
+    display: inline-block;
 }
 
-li {
-    float: left;
-	width: 20%;
+.navbar_primary li {
+    margin-right: 15px;
 }
 
-li a {
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+/* Link styles */
 
-li a:hover {
-    background-color: #4a86ff;
+    .nav-link { /* Link default style */
+        color: #dedede;
+        font-size:1em;
+        font-weight: 400;
+        text-decoration: none;
+    }
+
+    .navbar_primary .active { /* Add this class for active page */
+         @extend .nav-link;
+
+        color: #333;
+        border-bottom: 3px solid #FF6D00;
+        padding-bottom: 16px;
+    }
+
+.nav-link:hover {
+    border-bottom: 3px solid #FF6D00;
+    padding-bottom: 16px;
 }
 img.logo {
 	max-width: 100%;
@@ -71,7 +70,4 @@ img.logo {
 	width: auto;
 	display: block;
 	margin: 0 auto;
-}
-.active {
-	background-color: #FF0004
 }
