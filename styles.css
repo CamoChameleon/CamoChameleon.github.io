@@ -15,7 +15,6 @@ video#bgvid {
     background: url(bg.png) no-repeat;
     background-size: cover; 
 }
-
 h1 {
 	color:  #00ff88;
 	font-family: 'anaheim';
@@ -28,67 +27,44 @@ p {
 	font-size: 25px;
 	text-align: center;
 }
-nav {
-	position:fixed;
-	top:0;
-	margin: -40px;
-	height: 250px;
-	border-bottom: 1px solid #ffffff;
-	font-family: 'Anaheim';
-}
-.navbar_primary li,
-.user_nav li,
-.nav-link {
-    display: inline-block;
-}
-
-.navbar_primary li {
-    margin-right: 15px;
-}
-
-    .navbar_primary .active { /* Add this class for active page */
-         
-
-        color: #333;
-        border-bottom: 4px solid #FF6D00;
-        padding-bottom: 16px;
-    }
-
-.nav-link:hover {
-    border-bottom: 4px solid #FF6D00;
-    padding-bottom: 16px;
-}
-
-a.nav-link:link {
-	color: #ffffff;
-	font-family: 'anaheim';
-	font-size: 25px;
-	text-align: center;
-}
-
-a.nav-link:visited {
-	color: #ffffff;
-	font-family: 'anaheim';
-	font-size: 25px;
-	text-align: center;
-}
-
-a.active:visited {
-	color: #ffffff;
-	font-family: 'anaheim';
-	font-size: 25px;
-	text-align: center;
-}
-a.active:link {
-	color: #ffffff;
-	font-family: 'anaheim';
-	font-size: 25px;
-	text-align: center;
-}
-img.logo {
+img.wolf {
 	max-width: 100%;
 	height: auto;
 	width: auto;
 	display: block;
 	margin: 0 auto;
+}
+header {
+    background: #55d6aa;
+}
+.container {
+    width: 80%;
+    margin: 0 auto; 
+}
+header::after {
+    content:'';
+    display: table;
+    clear: both;
+}
+.logo {
+    float:left;
+    padding: 10px 0;
+}
+nav {
+    float:right;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 23px;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
 }
