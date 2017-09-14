@@ -32,8 +32,8 @@ nav {
 	position:fixed;
 	top:0;
 	margin: -40px;
-	height: 40px;
-	border-bottom: 1px solid #EEE; /* Grey divide 1px Horizontale */
+	height: 150px;
+	border-bottom: 1px solid #ffffff; /* Grey divide 1px Horizontale */
 	font-family: 'Anaheim', Helvetica, sans-serif;
 }
 .navbar_primary li,
@@ -59,12 +59,12 @@ nav {
          @extend .nav-link;
 
         color: #333;
-        border-bottom: 3px solid #FF6D00;
+        border-bottom: 4px solid #FF6D00;
         padding-bottom: 16px;
     }
 
 .nav-link:hover {
-    border-bottom: 3px solid #FF6D00;
+    border-bottom: 4px solid #FF6D00;
     padding-bottom: 16px;
 }
 
