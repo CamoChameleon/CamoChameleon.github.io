@@ -56,7 +56,7 @@ nav {
     }
 
     .navbar_primary .active { /* Add this class for active page */
-         @extend .nav-link;
+         
 
         color: #333;
         border-bottom: 4px solid #FF6D00;
