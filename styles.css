@@ -65,10 +65,12 @@ li a {
 li a:hover {
     background-color: #4a86ff;
 }
-img.edge {
-	max-width: 30%;
+img.logo {
 	height: auto;
 	width: auto;
-display: block;
+	display: block;
 	margin: 0 auto;
+}
+.active {
+	background-color: #FF0004
 }
