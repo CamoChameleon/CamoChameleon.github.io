@@ -29,9 +29,12 @@ p {
 	text-align: center;
 }
 nav {
-    height: 40px;
-    border-bottom: 1px solid #EEE; /* Grey divide 1px Horizontale */
-    font-family: 'Anaheim', Helvetica, sans-serif;
+	position:fixed;
+	top:0;
+	margin: -40px;
+	height: 40px;
+	border-bottom: 1px solid #EEE; /* Grey divide 1px Horizontale */
+	font-family: 'Anaheim', Helvetica, sans-serif;
 }
 .navbar_primary li,
 .user_nav li,
@@ -64,6 +67,21 @@ nav {
     border-bottom: 3px solid #FF6D00;
     padding-bottom: 16px;
 }
+
+a:link {
+	color: #ffffff;
+	font-family: 'anaheim';
+	font-size: 25px;
+	text-align: center;
+}
+
+a:visited {
+	color: #ffffff;
+	font-family: 'anaheim';
+	font-size: 25px;
+	text-align: center;
+}
+
 img.logo {
 	max-width: 100%;
 	height: auto;
