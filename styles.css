@@ -91,6 +91,10 @@ nav a::before {
 nav a:hover::before {
 	width:100%;
 }
-.fade {
-	opacity:1;
+body.index {
+    background-image:url(bg.jpg);
+    background-size:100%;
+    font-family: 'anaheim';
+    font-weight: 400;
+    margin: 0;
 }
