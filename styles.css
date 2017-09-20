@@ -11,13 +11,13 @@ div.text1, div.text2 {
     align-self: center;
 }
 h1 {
-	color:  #00ff88;
+	color:  #7A7A6E;
 	font-family: 'anaheim';
 	font-size: 72px;
 	text-align: center;
 }
 p {
-	color: #ffffff;
+	color: #7A7A6E;
 	font-family: 'anaheim';
 	font-size: 25px;
 	text-align: center;
@@ -31,11 +31,14 @@ img.lux {
     align-content: center;
 }
 header {
-    background: #55d6aa;
+	position: fixed;
+    background: #ba9c75;
+	top: 0;
 }
 .container {
     width: 80%;
     margin: 0 auto; 
+	height:50px
 }
 header::after {
     content:'';
@@ -115,7 +118,7 @@ nav a:hover::before {
 }
 
 .text1cont, .text2cont {
-	background-color: beige;
+	background-color: #ba9c75;
 	padding: 50px 80px;
 	max-width: 100%;
 }
