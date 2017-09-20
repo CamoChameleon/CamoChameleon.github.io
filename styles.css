@@ -11,6 +11,7 @@ div.text1, div.text2 {
     align-self: center;
 }
 h1 {
+	padding: 0px;
 	color:  #7A7A6E;
 	font-family: 'anaheim';
 	font-size: 72px;
