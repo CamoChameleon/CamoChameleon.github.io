@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Anaheim');
-body {
-    font-family: 'anaheim';
-    font-weight: 400;
-    margin: 0;
+body, html {
+	font-family: 'anaheim';
+	font-weight: 400;
+	margin: 0;
+	height: 100%;
 }
-div.text {
+div.text1, div.text2 {
     max-width: 75%;
     align-self: center;
 }
@@ -97,4 +98,13 @@ body.index {
     font-family: 'anaheim';
     font-weight: 400;
     margin: 0;
+}
+
+.bgimg-1 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
