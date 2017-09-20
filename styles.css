@@ -114,7 +114,7 @@ nav a:hover::before {
 	height: 100%;
 }
 
-.text1, .text2 {
+.text1cont, .text2cont {
 	background-color: beige;
 	padding: 50px 80px;
 	width: 100%;
