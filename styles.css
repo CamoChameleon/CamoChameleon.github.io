@@ -4,6 +4,7 @@ body, html {
 	font-weight: 400;
 	margin: 0;
 	height: 100%;
+	background-color: #777777;
 }
 div.text1, div.text2 {
     max-width: 75%;
@@ -103,13 +104,13 @@ nav a:hover::before {
 }
 
 .bgimg-1 {
-	background-image: "url:(bg.jpg)";
+	background-image: url:("bg.jpg");
 	height: 100%;
 }
 
 
 .bgimg-2 {
-	background-image: "url:(bg.png)";
+	background-image: url:("bg.png");
 	height: 100%;
 }
 
