@@ -31,9 +31,7 @@ img.lux {
     align-content: center;
 }
 header {
-	position: fixed;
     background: #ba9c75;
-	top: 0;
 }
 .container {
     width: 80%;
