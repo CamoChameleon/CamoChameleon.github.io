@@ -104,13 +104,13 @@ nav a:hover::before {
 }
 
 .bgimg-1 {
-	background-image: url:("bg.jpg");
+	background-image: url("bg.jpg");
 	height: 100%;
 }
 
 
 .bgimg-2 {
-	background-image: url:("bg.png");
+	background-image: url("bg.png");
 	height: 100%;
 }
 
