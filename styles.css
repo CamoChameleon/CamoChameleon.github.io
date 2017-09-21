@@ -4,35 +4,39 @@ body, html {
 	font-weight: 400;
 	margin: 0;
 	height: 100%;
-	background-color: #777777;
+	background-color: #3F3F3F;
 }
 div.text1, div.text2 {
     max-width: 75%;
     align-self: center;
 }
+
+div.imgdiv {
+    height: 500px;
+}
 h1 {
-	padding: 0px;
-	color:  #7A7A6E;
+	padding: 0;
+	color:  #95E48D;
 	font-family: 'anaheim';
 	font-size: 72px;
-	text-align: center;
+    text-align: center;
+    margin:0;
 }
 p {
-	color: #7A7A6E;
+	color: #98D192;
 	font-family: 'anaheim';
 	font-size: 25px;
 	text-align: center;
 }
 img.lux {
-	max-width: 100%;
-	height: auto;
+	height: 500px;
 	width: auto;
 	display: block;
     margin: 0 auto;
     align-content: center;
 }
 header {
-    background: #ba9c75;
+    background: #3F3F3F;
 }
 .container {
     width: 80%;
@@ -65,21 +69,21 @@ nav li {
 	position: relative;
 }
 nav a {
-    color: #363636;
+    color: #98D192;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'anaheim';
     font-size: 20px;
 }
 nav a:visited {
-    color: #363636;
+    color: #98D192;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'anaheim';
     font-size: 20px;
 }
 nav a:hover {
-    color: #000000;
+    color: #98D192;
     font-size: 20px;
 }
 nav a::before {
@@ -87,7 +91,7 @@ nav a::before {
 	display: block;
 	height: 5px;
 	width: 0%;
-	background-color:#444;
+	background-color:#98D192;
 	position: absolute;
 	top: 0;
 	transition: all ease-in-out 250ms;
@@ -117,7 +121,7 @@ nav a:hover::before {
 }
 
 .text1cont, .text2cont {
-	background-color: #ba9c75;
+	background-color: #3F3F3F;
 	padding: 50px 80px;
 	max-width: 100%;
 }
