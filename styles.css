@@ -4,7 +4,7 @@ body, html {
 	font-weight: 400;
 	margin: 0;
 	height: 100%;
-	background-color: #3F3F3F;
+	background-color: #252525;
 }
 div.text1, div.text2 {
     max-width: 75%;
@@ -122,6 +122,10 @@ nav a:hover::before {
 
 .text1cont, .text2cont {
 	background-color: #3F3F3F;
-	padding: 50px 80px;
+	padding: 30px;
 	max-width: 100%;
+}
+#lux {
+    -webkit-filter: hue-rotate(93deg);
+    filter: hue-rotate(93deg);
 }
