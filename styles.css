@@ -126,6 +126,10 @@ nav a:hover::before {
 	max-width: 100%;
 }
 #lux {
-    -webkit-filter: hue-rotate(93deg);
-    filter: hue-rotate(93deg);
+    -webkit-filter: hue-rotate(35deg);
+    filter: hue-rotate(35deg);
+}
+p {
+    margin:0px;
+    padding:0px;
 }
