@@ -133,3 +133,20 @@ p {
     margin:0px;
     padding:0px;
 }
+div.books {
+	background-color: #00000;
+}
+div.books a {
+    color: #98D192;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'anaheim';
+    font-size: 40px;
+}
+div.books a:visited {
+    color: #98D192;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'anaheim';
+    font-size: 40px;
+}
