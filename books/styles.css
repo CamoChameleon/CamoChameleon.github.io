@@ -23,7 +23,7 @@ p {
 header {
     background: #FFFFFF;
 }
-.container {
+nav.container {
     width: 80%;
     margin: 0 auto; 
 	height:50px
@@ -94,7 +94,7 @@ div.flashslide {
 	height:400px;
 	background:red;
 }
-div.container {
+div.pagecontent.container {
 	background:blue;
 }
 div.sidebar {
