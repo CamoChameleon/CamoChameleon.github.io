@@ -38,7 +38,7 @@ header::after {
     padding: 10px 0;
 }
 nav {
-    float:right;
+    float:center;
 }
 nav ul {
     margin: 0;
