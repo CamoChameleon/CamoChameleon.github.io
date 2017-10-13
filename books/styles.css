@@ -8,20 +8,20 @@ body, html {
 }
 h1 {
 	padding: 0;
-	color:  #95E48D;
+	color:  #000000;
 	font-family: 'anaheim';
 	font-size: 72px;
     text-align: center;
     margin:0;
 }
 p {
-	color: #98D192;
+	color: #000000;
 	font-family: 'anaheim';
 	font-size: 25px;
 	text-align: center;
 }
 header {
-    background: #3F3F3F;
+    background: #FFFFFFF;
 }
 .container {
     width: 80%;
@@ -54,21 +54,21 @@ nav li {
 	position: relative;
 }
 nav a {
-    color: #98D192;
+    color: #000000;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'anaheim';
     font-size: 20px;
 }
 nav a:visited {
-    color: #98D192;
+    color: #000000;
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'anaheim';
     font-size: 20px;
 }
 nav a:hover {
-    color: #98D192;
+    color: #000000;
     font-size: 20px;
 }
 nav a::before {
@@ -76,7 +76,7 @@ nav a::before {
 	display: block;
 	height: 5px;
 	width: 0%;
-	background-color:#98D192;
+	background-color:#000000;
 	position: absolute;
 	top: 0;
 	transition: all ease-in-out 250ms;
