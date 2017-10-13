@@ -84,3 +84,28 @@ nav a::before {
 nav a:hover::before {
 	width:100%;
 }
+div.pagecontent {
+	width:1024px;
+	max-width:80%;
+	background:#ffffff;
+}
+div.flashslide {
+	width:100%;
+	height:400px;
+	background:red;
+}
+div.container {
+	background:blue;
+}
+div.sidebar {
+	width:25%;
+	height:500px;
+	float:right;
+	background:beige;
+}
+div.everythingelse {
+	width:75%;
+	height:500px;
+	float:left;
+	background:purple;
+}
