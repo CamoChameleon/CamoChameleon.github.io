@@ -93,11 +93,6 @@ div.pagecontent {
 	max-width:80%;
 	background:#ffffff;
 }
-div.flashslide {
-	width:100%;
-	height:400px;
-	background:red;
-}
 div.pagecontent.container {
 	background:blue;
 }
