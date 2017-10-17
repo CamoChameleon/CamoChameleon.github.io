@@ -374,3 +374,26 @@ margin:0px;
     background: #6fb32b;
     outline: none;
 }
+.snipcart-add-item {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.snip-header, .snip-footer {
+    background-color:#FFFFFF !important;
+}
+.snip-header__title, .snip-footer__highlight {
+    color: #000000 !important;
+}
+.snip-ico.snip-ico--close {
+    color: red !important;
+}
