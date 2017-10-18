@@ -96,7 +96,6 @@ div.pagecontent {
 	background:#ffffff;
 }
 div.pagecontent .barcontainer {
-    background:blue;
     height:500px;
 }
 div.sidebar {
@@ -149,7 +148,9 @@ div.everythingelse {
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
-
+.footbar {
+    font-size: 10px !important;
+}
 /* Caption text */
 .text {
   color: #f2f2f2;
@@ -396,4 +397,10 @@ margin:0px;
 }
 .snip-ico.snip-ico--close {
     color: red !important;
+}
+div.featuredbox {
+    margin:25px;
+}
+.orangetext {
+    color: #eb5844;
 }
