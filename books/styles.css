@@ -96,20 +96,9 @@ div.pagecontent {
 	background:#ffffff;
 }
 div.pagecontent .barcontainer {
-    height:500px;
+    height:auto;
 }
-div.sidebar {
-	width:25%;
-	height:500px;
-	float:right;
-	background:beige;
-}
-div.everythingelse {
-	width:75%;
-	height:500px;
-	float:left;
-	background:purple;
-}
+
 * {box-sizing:border-box}
 
 /* Slideshow container */
