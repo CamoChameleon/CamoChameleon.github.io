@@ -19,11 +19,24 @@ h1 {
     margin:0;
 }
 p {
-	color: #000000;
-	font-family: 'anaheim';
-	font-size: 25px;
+	color: #717171;
+    font-family: 'Varela Round', sans-serif;
+	font-size: 16px;
     text-align: center;
-    margin:0px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.aboutustext {
+    margin:20px;
+}
+.bookpic {
+    padding:20px;
+    float:left;
+    background:white;
+}
+.purchasebox {
+    background: white;
+    height:500px;
 }
 /*header {
     background: #FFFFFF;
@@ -388,7 +401,7 @@ margin:0px;
     color: red !important;
 }
 div.featuredbox {
-    margin:25px;
+    padding:25px;
 }
 .orangetext {
     color: #eb5844;
