@@ -60,71 +60,6 @@ p {
     background: white;
     height:500px;
 }
-/*header {
-    background: #FFFFFF;
-}
-nav.container {
-    width: 80%;
-    margin: 0 auto; 
-	height:50px
-}
-header::after {
-    content:'';
-    display: table;
-    clear: both;
-}
-.logo {
-    float:left;
-    padding: 10px 0;
-}
-nav {
-    float:center;
-}
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-nav li {
-    display: inline-block;
-    margin: 0px 35px;
-    padding-top: 20px;
-    font-family: 'anaheim';
-	font-size: 20px;
-	position: relative;
-}
-nav a {
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'anaheim';
-    font-size: 20px;
-}
-nav a:visited {
-    color: #000000;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'anaheim';
-    font-size: 20px;
-}
-nav a:hover {
-    color: #000000;
-    font-size: 20px;
-}
-nav a::before {
-	content: '';
-	display: block;
-	height: 5px;
-	width: 0%;
-	background-color:#000000;
-	position: absolute;
-	top: 0;
-	transition: all ease-in-out 250ms;
-}
-nav a:hover::before {
-	width:100%;
-}
-*/
 div.pagecontent {
 	width:1024px;
 	max-width:80%;
@@ -240,7 +175,7 @@ body{
     border-radius: 4px;
 }
 .form-control:focus {
-    border-color: #f08373;
+    border-color: #ff0000;
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 .navbar-header.col {
@@ -256,20 +191,20 @@ body{
 .navbar .navbar-brand, .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
     padding-left: 0;
     font-size: 20px;
-    padding-right: 50px;
+    padding-right: 10px;
 }
 .navbar .navbar-brand b {
     font-weight: bold;
-    color: #eb5844;		
+    color: #ff0000;		
 }
 .navbar ul.nav li a {
     color: #888;
 }
 .navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
-    color: #f08373 !important;
+    color: #ff0000 !important;
 }
 .navbar ul.nav li.active > a, .navbar ul.nav li.open > a {
-    color: #eb5844 !important;
+    color: #ff0000 !important;
     background: transparent !important;
 }
 .search-box {
@@ -285,8 +220,8 @@ body{
     border-radius: 2px;
 }
 .search-box .input-group-btn .btn {
-    border-color: #eb5844;
-    background: #eb5844;
+    border-color: #ff0000;
+    background: #ff0000;
     outline: none;
 }
 .navbar .nav-item i {
@@ -426,5 +361,5 @@ div.featuredbox {
     padding:25px;
 }
 .orangetext {
-    color: #eb5844;
+    color: #ff0000;
 }
