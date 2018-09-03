@@ -38,7 +38,7 @@ a:hover {
 }
 .img-rounded {
     height: 300px !important;
-    width: 200px !important;
+    width: 500px !important;
 }
 p {
 	color: #717171;
@@ -61,8 +61,7 @@ p {
     height:500px;
 }
 div.pagecontent {
-	width:1024px;
-	max-width:80%;
+	width:100%;
 	background:#ffffff;
 }
 div.pagecontent .barcontainer {
