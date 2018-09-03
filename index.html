@@ -1,82 +1,187 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html>
 <head>
-	<link rel="stylesheet" href="styles.css">
-	<title>
-		I Hate IE
-	</title>
-</head>
+<meta charset="utf-8">
+<title>Geraldton Books</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MDUwNWU1N2UtNmRmZi00YmVjLTkwYTItN2YxYzhkNmNjNzJmNjM2NDM4NDA5NjE0MTQ3NzU0"></script>
+<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="./styles.css">
 <body>
-	<header>
-		<div class="container">
-				<a href="./index.html"><img src="navlogo.png" alt="navlogo" class="logo"></a>
-				<nav>
-					<ul>
+	<nav class="navbar navbar-default navbar-expand-lg navbar-light">
+		<div class="navbar-header d-flex col">
+			<a class="navbar-brand" href="./index.html">Young <b>Motors</b></a>
+			<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle navbar-toggler ml-auto">
+				<span class="navbar-toggler-icon"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<img class="navbar-header d-flex col" src="./holden.png" height="50px"/> 
+		<div id="navbarCollapse" class="collapse navbar-collapse justify-content-start">
+			<ul class="nav navbar-nav">
+				<li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>			
+				<li class="nav-item dropdown">
+					<a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Categories <b class="caret"></b></a>
+					<ul class="dropdown-menu">					
+						<li><a href="./sport.html" class="dropdown-item">Sport</a></li>
+						<li><a href="./utility.html" class="dropdown-item">Utility</a></li>
+						<li><a href="./family.html" class="dropdown-item">Family</a></li>
+					</ul>
+				</li>
+			<li class="nav-item dropdown">
+					<a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#">Information<b class="caret"></b></a>
+					<ul class="dropdown-menu">					
+						<li><a href="#myModal" class="trigger-btn" data-toggle="modal">Contact Us</a></li>
+						<li><a href="./stores.html" class="dropdown-item">Find Us</a></li>
+						<li><a href="./about.html" class="dropdown-item">About Us</a></li>
+					</ul>
+				</li>
+				
+			</ul>		
+			<ul class="nav navbar-nav navbar-right ml-auto">			
+				<li class="nav-item dropdown">
+					<a data-toggle="dropdown" class="nav-link dropdown-toggle" href="#"><i class="fa fa-search"></i></a>
+					<a data-toggle="dropdown" class="nav-link dropdown-toggle hide" href="#"><i class="fa fa-close"></i></a>
+					<ul class="dropdown-menu">
 						<li>
-							<a href="./index.html">Home</a>
-						</li>
-						<li>
-							<a href="./exhibitions.html">Exhibitions</a>
-						</li>
-						<li>
-							<a href="./browse.html">Browse</a>
-						</li>
-						<li>
-							<a href="./about.html">About Us</a>
+													<form>
+															<div class="input-group search-box">								
+																	<input type="text" id="search" class="form-control" placeholder="Search here...">
+									<span class="input-group-btn">
+										<button type="button" class="btn btn-primary"><i class="fa fa-search"></i></button>
+									</span>
+															</div>
+													</form>                        
 						</li>
 					</ul>
-				</nav>
+				</li>
+				<li class="nav-item"><a href="#" class="snipcart-checkout"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+				<li class="nav-item"><a href="https://facebook.com" class="nav-link"><i class="fa fa-facebook"></i></a></li>
+				<li class="nav-item"><a href="https://twitter.com" class="nav-link"><i class="fa fa-twitter"></i></a></li>
+			</ul>
 		</div>
-		</header>
-<div class="bgimg-1">
-	<h1>
-		Art.
-	</h1>
+	</nav>
 	<center>
-		<div class="imgdiv">
-			<img class="lux" id="lux" src="luxray.png">
+	<div class="pagecontent">
+		<div class="slide">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+
+      <div class="item active">
+			<a href="./purchase_f.html"><img src="./slides/img3.png" alt="Los Angeles" style="width:100%;"></a>
+      </div>
+
+      <div class="item">
+			<a href="./purchase_nf.html"><img src="./slides/img1.jpg" alt="Chicago" style="width:100%;"></a>
+      </div>
+    
+      <div class="item">
+        <a href="./purchase_f.html"><img src="./slides/img2.png" alt="New York" style="width:100%;"></a>
+      </div>
+  
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
 		</div>
-		<div class="books">
-			<a href="./books/index.html">Click here to visit the bookstore</a>
-		</div>
-	</center>
-</div>
-	<center>
-	<div class="text1cont">
-		<div class="text1">
-		<p>
-			id euismod sapien. Fusce volutpat lacus magna, in tempus nisi sollicitudin ut. Pellentesque ac iaculis elit, in tristique risus. Etiam sit amet iaculis odio, eget varius nibh. 
-			<br />
-			Suspendisse posuere sed enim quis lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-			<br />
-			Donec sem ipsum, maximus id lorem eget, tempor porttitor massa. In laoreet tellus non augue aliquam feugiat. 
-			<br />
-		</p>
-	</div>
-	</div>
-	</center>
-	<div class="bgimg-2">
+		<div class="barcontainer">
+				<div id="myModal" class="modal fade">
+						<div class="modal-dialog modal-lg contact-modal">
+							<div class="modal-content">
+											<form action="#grats" method="post">
+													<div class="modal-header">				
+															<h4 class="modal-title">Send Us a Message</h4>
+															<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+													</div>
+													<div class="modal-body">
+															<div class="row">
+																	<div class="col-md-6">
+																			<div class="form-group">
+																					<input type="text" class="form-control" id="inputName" placeholder="Name" required>
+																			</div>
+																			<div class="form-group">
+																					<input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+																			</div>
+																			<div class="form-group">
+																					<input type="text" class="form-control" id="inputEmail" placeholder="Phone" required>
+																			</div>
+																	</div>
+																	<div class="col-md-6">
+																			<div class="form-group">
+																					<textarea class="form-control" id="inputMessage" placeholder="Message" required></textarea>
+																			</div>
+																	</div>
+															</div>                    
+													</div>
+													<div class="modal-footer">
+																	<input type="button" class="btn btn-link" data-dismiss="modal" value="Cancel">
+																	<a href="#grats" class="btn btn-primary" data-dismiss="modal" data-toggle="modal">Submit</a>
+															</div>
+											</form>
+							</div>
+						</div>
+					</div>
+					<div id="grats" class="modal fade">
+							<div class="modal-dialog modal-confirm">
+								<div class="modal-content">
+									<div class="modal-header">
+										<div class="icon-box">
+											<i class="material-icons">&#xE876;</i>
+										</div>				
+										<h4 class="modal-title">Awesome!</h4>	
+									</div>
+									<div class="modal-body">
+										<p class="text-center">Thanks for contacting us, we'll be sure to get back to you as soon as possible!</p>
+									</div>
+									<div class="modal-footer">
+										<button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+									</div>
+								</div>
+							</div>
+						</div>     
+	<div class="featuredbox">
+		<h2>Featured <b class="orangetext">Books</b></h2>
+		<a href="./browse_f.html"><h4 class="text-left">Fiction</h4></a>
 		<br />
-	</div>
-	<center>
-		<div class="text2cont">
-		<div class="text2">
-		<p>
-			Suspendisse non ante blandit, hendrerit neque vitae, ultrices nisi. Duis vitae felis diam. Donec vulputate eros non dignissim tincidunt. 
-			<br />
-			In auctor dolor sit amet velit faucibus, id semper arcu aliquam.
-			<br /> 
-			Curabitur blandit, orci quis mollis pretium.
-		</p>
-	</div>
-	</div>
-</center>
-<footer>
-	<p>
-		footerxdxdxdxd
-		<br />	
+		<a href="./purchase_f.html"><img class="img-rounded" src="./books/book1_f.jpg"></a>
+		<a href="./purchase_f.html"><img class="img-rounded" src="./books/book2_f.jpg"></a>
+		<a href="./purchase_f.html"><img class="img-rounded" src="./books/book3_f.jpg"></a>
+		<a href="./purchase_f.html"><img class="img-rounded" src="./books/book4_f.jpg"></a>
+		<a href="./browse_nf.html"><h4 class="text-left">Non-Fiction</h4></a>
 		<br />
-		Copyright gowie&co 2017
-	</p>
-</footer>
+		<a href="./purchase_nf.html"><img class="img-rounded" src="./books/book1_nf.jpg"></a>
+		<a href="./purchase_nf.html"><img class="img-rounded" src="./books/book2_nf.jpg"></a>
+		<a href="./purchase_nf.html"><img class="img-rounded" src="./books/book3_nf.jpg"></a>
+		<a href="./purchase_nf.html"><img class="img-rounded" src="./books/book4_nf.jpg"></a>
+	</div>
+		</div>
+		<div class="footbar">
+			<p class="footbar"> Copyright Gowie 2018 </p>
+		</div>
+	</div>
+	</center>
 </body>
 </html>
