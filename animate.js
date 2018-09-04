@@ -1,6 +1,6 @@
 $(document).ready(function(){			
     $('.ct-slick-homepage').on('init', function(event, slick){
-      $('.animated').addClass('activate fadeInUp');
+      $('.animated1').addClass('activate fadeInUp');
     });		
   
     $('.ct-slick-homepage').slick({
@@ -10,13 +10,13 @@ $(document).ready(function(){
     });			
   
     $('.ct-slick-homepage').on('afterChange', function(event, slick, currentSlide) {
-      $('.animated').removeClass('off');
-      $('.animated').addClass('activate fadeInUp');
+      $('.animated1').removeClass('off');
+      $('.animated1').addClass('activate fadeInUp');
     });		
   
     $('.ct-slick-homepage').on('beforeChange', function(event, slick, currentSlide) {
-      $('.animated').removeClass('activate fadeInUp');
-      $('.animated').addClass('off');
+      $('.animated1').removeClass('activate fadeInUp');
+      $('.animated1').addClass('off');
     });
   });
   
