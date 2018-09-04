@@ -1,0 +1,45 @@
+.swiper-container {
+	width: 100%;
+	height: 75vh;
+}
+.carousel {
+	height: 75vh;
+}
+.price {
+    text-align: center;
+    font-family: 'ubuntu',sans-serif;
+    padding: 30px;
+}
+h1 {
+    font-size:50px;
+}
+div.price p {
+    font-size:25px;
+    font-family: 'ubuntu', sans-serif;
+}
+div.performance {
+    height:50vh;
+    width:100%;
+    background-color:grey;
+    color:white;
+}
+.performance img {
+    float:right;
+    padding:0px;
+    height:100%;
+    width:auto;
+}
+
+.performance h1 {
+    float:left;
+    text-align:center;
+    padding:100px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+.performance p {
+    text-align:center;
+    font-size:25px;
+    font-family: 'ubuntu', sans-serif;
+    padding-left:200px;
+}
