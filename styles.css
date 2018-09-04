@@ -363,7 +363,7 @@ div.featuredbox {
     color: #ff0000;
 }
 .picturebox {
-	background-image:url"./pagebg.jpg";
+	background-image:url("./pagebg.jpg");
 	width:100%;
-	height:95%;
+	height:95% !important;
 }
