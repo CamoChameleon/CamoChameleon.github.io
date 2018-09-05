@@ -1,0 +1,43 @@
+div.infobox {
+    background-color: gray;
+    height:95vh;
+    margin:0px;
+}
+div.boxone {
+    float:left;
+    text-align:center;
+    width:50%;
+    height:100%;
+    margin:0px;
+    background-color: white;
+    color:black;
+}
+div.boxtwo {
+    float:right;
+    width:50%;
+    height:100%;
+    margin:0px;
+    background-color:white;
+}
+.infobox h1 {
+    text-align:center;
+    padding-top:70px;
+    margin:0px;
+    color:white;
+}
+div.textbox {
+    height:20%;
+    width:100%;
+}
+div.boxbox {
+    height:80%
+}
+div.infobox .boxone h1 {
+    color:black;
+    padding:20px;
+}
+.boxtwo img {
+    height:auto;
+    width:auto;
+
+}
