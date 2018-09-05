@@ -44,3 +44,52 @@ div.performance {
     padding-left:200px;
 }
 */
+div.sidebox {
+    float:left;
+    text-align:center;
+    font-size:25px;
+    font-family: 'ubuntu', sans-serif;
+}
+.sidebox h1 {
+    text-align:center;
+    padding:50px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+div.tech {
+    height: 65vh;
+    padding:0px;
+    color:black;
+    background-color:#e0e0e0;
+}
+.tech img {
+    float:left;
+    height:100%;
+    width:auto;
+}
+.tech .sidebox {
+    float:right;
+}
+.btn-buy {
+	color:gray;
+	font-size: 16px;
+	border-color: gray;
+	text-decoration: none;
+	border: 2px solid;
+	border-radius: 5px;
+	padding: 14px 28px;
+}
+.btn-buy:hover {
+	color:rgb(78, 78, 78);
+	border-color: rgb(78, 78, 78);
+	text-decoration: none;
+}
+.enquire {
+    height:20vh;
+    text-align: center;
+    font-size: 20pt;
+    padding:20px;
+}
+.footer {
+    text-align:center;
+}

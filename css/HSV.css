@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic');
+.sps--blw {
+    background-color: #000000;
+    color: #fff;
+}
+.sps--blw.top-bar .nav-link {
+    color: rgb(255, 255, 255);
+}
+.sps--blw.top-bar a.navbar-brand {
+    color: rgb(255, 255, 255);
+}
+.price h1 {
+    font-family:'Ubuntu', sans-serif;
+}
+.price {
+    color:white;
+    background-color:black;
+}
+.price b {
+    color:red;
+}
+div.performance .sidebox {
+    background-color:white;
+    color:black;
+}
+div.performance {
+    height: 50vh;
+    width: 100%;
+    background-color: white;
+    color: black;
+}
+.interior {
+    background-color:white;
+    padding:20px;
+    text-align:center;
+    color:black;
+    height:auto;
+}
+.tech {
+    height:auto !important;
+}
+.row {
+    display: flex;
+    padding-left:20%;
+    padding-right:20%;
+    padding-top:10px;
+}
+  
+.column {
+    flex: 33.33%;
+    padding: 10px;
+}
+/*
+.row .column h2 {
+    text-align:center;
+}
